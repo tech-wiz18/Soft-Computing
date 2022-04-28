@@ -48,3 +48,8 @@ TO properly arrange dataset in train-test we used [THIS NOTEBOOK](notebooks/data
  - Used (80-20) Splitting ratio.
  - Keep only those person which are having more than one images.
 
+
+## References
+ * [WHAT ARE WAVELET TRANSFORMS?](https://en.wikipedia.org/wiki/Wavelet_transform)
+ * [pywavelet docs](https://pywavelets.readthedocs.io/en/latest/ref/2d-dwt-and-idwt.html#ref-dwt2) - Wavelet Transformation Library for python.
+ * [Sklearn PCA](https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html)
