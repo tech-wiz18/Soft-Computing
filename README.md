@@ -32,3 +32,15 @@ TO properly arrange dataset in train-test we used [THIS NOTEBOOK](notebooks/data
 
  - Used (80-20) Splitting ratio.
  - Keep only those person which are having more than one images.
+
+
+### NOVEL TECHNIQUES USED :-
+
+ - **DB4 WAVELET TRANSFORMATION** - To reduce computational complexity for PCA Calculations
+
+    Result :-
+
+    <img src= "assets/gray_64X64.png"> </br>
+    <img src= "assets/wavelet_35X35.png"> </br>
+
+
