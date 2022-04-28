@@ -7,7 +7,7 @@ pass
 
 ### NOVEL TECHNIQUES USED :-
 
- - **DB4 WAVELET TRANSFORMATION** - To reduce computational complexity for PCA Calculations
+ - **WAVELET TRANSFORMATION** - To reduce computational complexity for PCA Calculations
 
     Result :-
 
