@@ -1,4 +1,4 @@
-<h1 align="center">Face Recognition using Neural Evolution</h1>
+<h1 align="center">Face Recognition using Wavelet Transformed Neural Evolution</h1>
 <h4 align="center"> Aman Mishra (ECE), Megha Garg (SMST) </h4>
 
 ### ABSTRACT
