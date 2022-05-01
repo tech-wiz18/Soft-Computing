@@ -20,7 +20,10 @@ pass
  - python>3.7</br>
  - OpenCV
  - numpy
+ - pywavelets
  - torch>=1.8.0 (With CUDA 11.1)
+ 
+ For all the above and other requirements easily, run ```pip install -r requirements.txt``` 
 
 ## Instructions
 
