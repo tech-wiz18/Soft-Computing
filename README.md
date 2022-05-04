@@ -3,7 +3,7 @@
 
 ### ABSTRACT
 
-pass
+Face Recognition involves matching features of a given face to the ones present in database and verifies the person present or not. It is a well studied problem in Computer Vision community. Most of the features are redundant in facial images, so we are proposing a genetic based feature selection technique to choose best set of eigen vectors extracted from PCA. We worked on DB4 wavelet of given image instead of working on direct image to reduce PCA computational complexity. Moreover, we used, 2-layered siamese net on top of the selected features to perform one-shot recognition.
 
 ### NOVEL TECHNIQUES USED :-
 
@@ -14,6 +14,7 @@ pass
     <img src= "assets/gray_64X64.png"> </br>
     <img src= "assets/wavelet_35X35.png"> </br>
 
+ - **EVOLUTIONARY ALGORITHM** - To select eigen-vectors based on the genetic fitness.
 
 ## Requirements
 
@@ -23,7 +24,7 @@ pass
  - pywavelets
  - torch>=1.8.0 (With CUDA 11.1)
  
- For all the above and other requirements easily, run ```pip install -r requirements.txt``` 
+ For installing all the above and other requirements easily, run ```pip install -r requirements.txt``` 
 
 ## Instructions
 
@@ -50,6 +51,8 @@ TO properly arrange dataset in train-test we used [THIS NOTEBOOK](notebooks/data
 
  - Used (80-20) Splitting ratio.
  - Keep only those person which are having more than one images.
+
+ **DEMO IS PRESENT IN THIS [NOTEBOOK](notebooks/nn.ipynb)**
 
 
 ## References
