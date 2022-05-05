@@ -5,6 +5,9 @@
 
 Face Recognition involves matching features of a given face to the ones present in database and verifies the person present or not. It is a well studied problem in Computer Vision community. Most of the features are redundant in facial images, so we are proposing a genetic based feature selection technique to choose best set of eigen vectors extracted from PCA. We worked on DB4 wavelet of given image instead of working on direct image to reduce PCA computational complexity. Moreover, we used, 2-layered siamese net on top of the selected features to perform one-shot recognition.
 
+For more info, visit the presentation link - [HERE](https://docs.google.com/presentation/d/1AGOhOAvEGNLaVtMC0lDCtJAKBcsxksVG_VoXxjM_Ec8/edit?usp=sharing
+)
+
 ### NOVEL TECHNIQUES USED :-
 
  - **WAVELET TRANSFORMATION** - To reduce computational complexity for PCA Calculations
